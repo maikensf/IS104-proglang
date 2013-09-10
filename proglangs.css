@@ -1,0 +1,101 @@
+body {
+	background-color: #FFFFFF;
+	color: #303030;
+	font-size: 16px;
+	font-family: "Arial";
+	text-align: center;
+}
+
+
+li {list-style-type: none;
+}
+
+/** Tekst farge */
+
+li:nth-child(2) {
+	color: #FF3333;
+	}
+	
+li:nth-child(3) {
+	color: #FF3333;
+	}
+
+li:nth-child(4) {
+	color: #FF3333;
+	}	
+	
+li:nth-child(5) {
+	color: #000099;
+	}	
+	
+li:nth-child(6) {
+	color: #00CC33;
+	}	
+	
+li:nth-child(7) {
+	color: #00CC33;
+	}	
+
+li:nth-child(8) {
+	color: #00CC33;
+	}
+
+li:nth-child(9) {
+	color: #00CC33;
+	}
+
+li:nth-child(10) {
+	color: #00CC33;
+	}	
+	
+li:nth-child(11) {
+	color: #660066;
+	}	
+
+li:nth-child(12) {
+	color: #FF0066;
+	}
+
+li:nth-child(13) {
+	color: #FF6600;
+	}	
+
+li:nth-child(14) {
+	color: #CC0000;
+	}
+	
+li:nth-child(15) {
+	color: #6666FF;
+	}
+
+li:nth-child(16) {
+	color: #6666FF;
+	}	
+	
+li:nth-child(17) {
+	color: #996699;
+	}	
+	
+li:nth-child(18) {
+	color: #66CC33;
+	}	
+	
+li:nth-child(19) {
+	color: #66CC33;
+	}	
+
+li:nth-child(20) {
+	color: #66CC33;
+	}
+
+li:nth-child(21) {
+	color: #FFCC00;
+	}
+
+li:nth-child(22) {
+	color: #FF9999;
+	}	
+	
+li:nth-child(23) {
+	color: #FF9999;
+	}

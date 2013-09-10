@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<!--
+  LAB1
+  Navn: Maiken Somby Flågan
+  Jeg samarbeidet med:
+  Tiden jeg har brukt på oppgaven: ...
+-->
+
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Programmeringsspråk (versjon 0.0.1)</title>
+ 
+ <!-- java scriptet -->
+ <script type="text/javascript" src="proglangs.js"></script>
+  
+ <!-- Laste inn Javascript biblioteker -->
+ <script type="text/javascript" src="jquery-1.10.2.min.js">  </script>
+
+ <!-- Inkludere CSS -->
+ <link rel="stylesheet" href="proglangs.css" type="text/css" media="all" />
+ 
+ </head>
+<body>
+
+<h1>Programmeringsspråk</h1> 
+<p><h4>Hvilket språk foretrekker du?</h4></p>
+
+<form action="">
+<select id="myList" onchange="proglangs()">
+<option value="IKKE" selected>Velg et programmeringsspråk</option>
+<option value="ActionScript">ActionScript</option>
+<option value="AppleScript">AppleScript</option>
+<option value="Asp">Asp</option>
+<option value="BASIC">BASIC</option>
+<option value="C">C</option>
+<option value="C++">C++</option>
+<option value="Clojure">Clojure</option>
+<option value="COBOL">COBOL</option>
+<option value="ColdFusion">ColdFusion</option>
+<option value="Erlang">Erlang</option>
+<option value="Fortran">Fortran</option>
+<option value="Groovy">Groovy</option>
+<option value="Haskell">Haskell</option>
+<option value="Java">Java</option>
+<option value="JavaScript">JavaScript</option>
+<option value="Lisp">Lisp</option>
+<option value="Perl">Perl</option>
+<option value="PHP">PHP</option>
+<option value="Python">Python</option>
+<option value="Ruby">Ruby</option>
+<option value="Scala">Scala</option>
+<option value="Scheme">Scheme</option>
+</select>
+
+<p>Du valgte <input type="text" span id="favorite"></span></p>
+</form>
+
+</body>
+</html>

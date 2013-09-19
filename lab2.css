@@ -1,0 +1,47 @@
+body {
+	/*Setter design for innhold i html body*/
+	padding-left: 11em;
+	font-family: georgia, "times new roman", times, serif;
+	color: #B05F3C;
+	background-color: #E4C0B1; }
+	
+	/*Reserverer venstre felt for menyen*/
+ul.navbar {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+	
+	/*setter stil til h1*/
+h1 {	font-family: helvetica, geneva, arial, 
+		sunsans-regular, sans-serif	}
+		
+	/*Oppretter en klasse kalt "navbar" som kan benyttes
+	av li elementer i ul*/
+ul.navbar li {
+	background: #D69E87;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	border-right: 1em solid black }
+	
+	/*fjerner understrek på lenker som ellers er standard
+	i html. Kun i ul taggen*/
+ul.navbar a {
+	 text-decoration: none}
+	 
+	 /*setter farge p+ samtlige lenker*/
+a:link {
+	color: blue; }
+	
+	/*setter farge på samtlige besøkte lenker*/
+a:visited {
+	color: black; }
+	
+	/*formatering for <adress> taggen*/
+address {
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: thin dotted }

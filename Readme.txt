@@ -1,4 +1,3 @@
-
 Dette filsettet inneholder
 
 proglangs.html - hovedside for webapplikasjonen, med punktene i listeformat
@@ -8,7 +7,15 @@ proglangs.js - javascriptbibliotek
 
 ---------------
 
-Kontrollspørsmål: 
+Kontrollspørsmål Lab2: 
+Poenget med å bruke ulike typer filer er å minske behovet for å repetere data, samt å gjøre det hele mer oversiktlig. 
+Html filen er modellen til siden og inneholder de dataen vi har, og er dermed "Model". 
+CSS Fila bestemmer hvordan data på siden skal vises, og kalles "View". 
+JS er den fila som kontrollerer hva som skal vises av informasjonen i HTML fila, 
+feks dersom man selekterer et av elementene i lista, og er derfor "Controller".
+
+
+Kontrollspørsmål Lab1: 
 
 0. JavaScript er et programmeringsspråk som kan brukes til å implementere ulike funksjoner, eller dynamiske elementer, inn i en html-side. 
 Dette gjør at man feks kan legge inn egen tekst, eller gjøre andre endringer, noe som ikke vil være mulig hvis man kun bruker html. 

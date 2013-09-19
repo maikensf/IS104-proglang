@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Program languages</title>
+	
+	<!--stylesheet-->
+	<link rel="stylesheet" href="lab2.css">
+	
+	<!-- JavaScript
+	<script type="text/javascript" src="proglangs.js"></script>
+	-->
+	
+</head>
+
+<body>
+
+<!-- Navigerings meny -->
+<ul class="navbar" >
+	<li><a href="index.html">Hjem</a>
+	<li><a href="" onclick="myFunction()">Kronologik</a>
+	<li><a href="" onclick="myFunction()">Hierarkisk</a>
+	<li><a href="" onclick="myFunction()"> Alfabetisk</a>
+	</ul>
+	
+
+	
+	<!-- hoved innhold -->
+	<h1>Programmeringsspråk</h1>
+	
+	
+
+	
+	<form action="">
+		<!--ord som blir vist når intet språk er selektert -->
+		<label for="proglangs"> Søk i programmeringsspråk:</label>
+		
+		<!-- name/egennavn, id/ved bruk av script,  -->
+		<select name="select-pl" id="proglangs" onChange="printToOutputBox(this)">
+
+		
+		<!-- <select name="myList">  -->
+			<option value="ActionScript">ActionScript</option>
+			<option value="AppleScript">AppleScript</option>
+			<option value="Asp">Asp</option>
+			<option value="BASIC">BASIC</option>
+			<option value="C">C</option>
+			<option value="C++">C++</option>
+			<option value="Clojure">Clojure</option>
+			<option value="COBOL">COBOL</option>
+			<option value="ColdFusion">ColdFusion</option>
+			<option value="Erlang">Erlang</option>
+			<option value="Fortran">Fortran</option>
+			<option value="Groovy">Groovy</option>
+			<option value="Haskell">Haskell</option>
+			<option value="Java">Java</option>
+			<option value="JavaScript">JavaScript</option>
+			<option value="Lisp">Lisp</option>
+			<option value="Perl">Perl</option>
+			<option value="PHP">PHP</option>
+			<option value="Python">Python</option>
+			<option value="Ruby">Ruby</option>
+			<option value="Scala">Scala</option>
+			<option value="Scheme">Scheme</option>
+		</select>
+	</form>
+	<br>
+	<span id="outputbox">Velkommen til en mystisk verden av programmeringsspråk!</span>
+	<script src="proglangs.js"></script>
+	
+	
+	
+	
+	<!-- forfatter og dato-->
+	<address>Laget 19.09.13 <br>
+			av Maiken </adress>
+	
+	
+</body>
+</html>

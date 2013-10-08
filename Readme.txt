@@ -7,6 +7,24 @@ proglangs.js - javascriptbibliotek
 
 ---------------
 
+Spørsmål Lab3:
+0) Fordelen med et eksisterende JavaScript bibliotek som jQuery i stedet for å skrive en "rå" JavaScript for dynamisk
+endring av HTML sider er at med "rå" JavaScript kan det være forskjeller på hvordan de ulike elementene blir implementert
+av ulike nettlesere, mens ferdige biblioteker som jQuery stort sett virker på samme måte i ulike nettlesere.  
+
+1) Sterke sider til HTML/CSS er når det kommer til tekstbehandling og formatering. Det er mange flere muligheter 
+til formatering og stilsetting med html. Html-filer er ofte også mer oversiktlige og lette å lese for ulike søkemotorer, 
+og gjør det mulig å skille mellom de ulike elementene i fila. 
+Sterke sider til Canvas er når det kommer til bilde og grafikk. Dette vil fungere både skarpere og raskere enn ved bruk
+av html. 
+Det er som regel en fordel å bruke Canvas for webapplikasjoner som krever høy ytelse.
+
+2) HTML5 Canvas representere den grafiske presentasjonsmåten som bruker piksler, slik at hver piksel blir manipulert og 
+får en egen verdi slik at det blir dannet bilder.  
+
+X)Jeg fikk noe hjelp av Oddvar Tengesdal til å løse denne oppgaven. Jeg tror det tok meg totalt litt over 4 timer. 
+
+
 Kontrollspørsmål Lab2: 
 Poenget med å bruke ulike typer filer er å minske behovet for å repetere data, samt å gjøre det hele mer oversiktlig. 
 Html filen er modellen til siden og inneholder de dataen vi har, og er dermed "Model". 

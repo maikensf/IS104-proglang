@@ -1,9 +1,13 @@
-Dette filsettet inneholder
+Dette filsettet inneholder filer til lab 1-4 i IS 104
 
 proglangs.html - hovedside for webapplikasjonen, med punktene i listeformat
 dropdown.html - hovedside for webapplikasjonen, med drop-down meny
 proglangs.css - stiler for webapplikasjonen
-proglangs.js - javascriptbibliotek 
+proglangs.js - javascriptbibliotek
+
+
+lab4.html - webapplikasjon med alfabetisk oversikt over programmeringsspråk og tilhørende forklaringer
+lab4.css - stiler for webapplikasjonen i lab 4
 
 ---------------
 

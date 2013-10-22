@@ -1,0 +1,71 @@
+  /*
+	Setter margen (margin) og utfylling (padding) til 0, siden det er vanlig med en satt verdi i nettleser til dette
+*/
+body {
+	margin:0;
+	padding:0;
+}
+
+#body-container {
+	width:415px;
+	height:500px;	
+	margin:0 auto; /*plasserer div til senter*/
+	border:1px solid #3285ef; /* Setter ramme rundt body-container div*/
+}
+
+#body-container .glossary-container {
+	clear: both; /*Tillater ingen elementer som flyter på noen av sidene*/
+}
+
+#body-container .content-container {
+	height: 430px; 
+	width: 415px;
+	overflow: auto; /*Et rullefelt vises når innholdet er større enn den spesifiserte høyden*/
+	font-family: 'Arial',Verdana,Tahoma; /*Har standardfonten 'Arial'*/
+	font-size: 10pt; 
+	clear: both; /*Tillater ingen elementer som flyter på noen av sidene*/
+}
+
+/*Definerer egenskaper for alle div objekter tilhørende klassen content-container*/
+#body-container .content-container div{
+	padding-left: 10px; /*Utfylling/padding settes til 10 px*/
+	border-bottom: 1px #666666 solid; /*For å adskille hver gruppe settes farge og bredde på nedre rammeside */
+}
+
+/*Siden listingen skal rulles, gis brukeren en mulighet til å komme til toppen igjen*/
+#body-container .content-container p.return-to-top{
+	color: #0066FF; /* Tekstfarge til returnerings-knappen */
+	text-decoration: underline; 
+	text-align: right; 
+	margin-right: 10px;
+	cursor: pointer; /* Kursøren blir til en "hånd" */
+}
+
+/*Egenskaper til den ikke-ordnede listen */
+.firstUL{
+	padding: 0px 0px 0px 10px; /* Litt utfylling mot venstre, ingen mot høyre, toppen og bunnen */
+	margin: 0px; /* Setter alle marginer til */
+	background-color: #3285ef; /* Bakgrunnsfarge */
+}
+
+/* Egenskaper til hvert listeelement i den underordnede listen */
+.firstUL li {
+	/*For alle listeelementer settes et bakgrunnsbilde ved å bruke "CSS Image Sprites" */
+	background: transparent url(img/link_sprite_img.jpg) no-repeat scroll 0 0;
+	display: inline; /*Utlistningene vil bli satt på en rad, som en tekst*/
+	font-family: 'Arial',Verdana, Tahoma;
+	font-size: 16pt;
+	font-weight: bold;
+	padding: 10px 15px 22px; /*Utfylling til alle sidene*/
+	line-height: 70px; 
+	cursor: pointer; /*Kursøren blir til en hånd*/
+}
+
+/* Når en bokstav er valgt må utseendet endres. 
+	Her brukes andre delen av bildet ved å bruke "CSS Image Sprites"
+	Man viser den nederste delen av bildet som 114px høy, dvs forskjøvet med -57px */
+.firstUL li.selected{
+	background: transparent url(img/link_sprite_img.jpg) no-repeat scroll 0px -57px;
+	color: #ffffff; /*hvit fontfarge*/
+	font-weight: bold;
+}
